@@ -14,9 +14,7 @@ mvn clean install
 ## How to use the plugin
 
 1. Add the following plugin to the pom file of the project.
-
-<pre>
-<code>
+```xml
 <plugin>
 	<groupId>cs6367.Coverage</groupId>
 	<artifactId>plugin-metrics</artifactId>
@@ -29,8 +27,7 @@ mvn clean install
 		</execution>
 	</executions>
 </plugin>
-</code>
-</pre>
+```
 
 2. To run the plugin on any project, navigate to the root of that project, and execute:
 <code>
