@@ -39,7 +39,7 @@ mvn clean install
 
 ## How to use the plugin
 
-1. Add the following plugin to the pom file of the project.
+1. Add the following plugin to the pom file (inside the <build> of the github project which you clone or download.
 ```xml
 <plugin>
 	<groupId>cs6367.Coverage</groupId>
