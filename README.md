@@ -31,7 +31,7 @@ It Calculates the following method metrics:
 
 ## How to build
 
-Navigate to the root folder of the project, and open console. <br>
+Navigate to the root folder of the github project, and open console. <br>
 Use the following code to build the project.
 <code>
 mvn clean install
@@ -39,7 +39,7 @@ mvn clean install
 
 ## How to use the plugin
 
-1. Add the following plugin to the pom file (inside the <build> of the github project which you clone or download.
+1. Add the following plugin to the pom file (inside build of the pom file which is in the github project which you clone or download).
 ```xml
 <plugin>
 	<groupId>cs6367.Coverage</groupId>
